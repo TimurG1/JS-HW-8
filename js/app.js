@@ -1,5 +1,11 @@
+
 const friends = ["Mango", "Poly", "Kiwi", "Ajax"];
-let string = friends.join(" ")
+let string1 = "";
+for (let i = 0; i < friends.length; i++) {
+    string1 += friends[i] + ", "
+}
+
+let string = friends.join(", ")
 
 const cards = [
     "Карточка-1",
